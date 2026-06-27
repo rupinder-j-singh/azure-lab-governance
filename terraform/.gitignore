@@ -1,0 +1,22 @@
+# Local .terraform directories
+.terraform/
+
+# Terraform plan files
+*.tfplan
+
+# Crash log files
+crash.log
+
+# Terraform state — never commit, stored in Azure
+*.tfstate
+*.tfstate.backup
+
+# Override files
+override.tf
+override.tf.json
+
+# Auto tfvars — these can contain secrets
+*.auto.tfvars
+
+# Sensitive tfvars — uncomment if your tfvars contain secrets
+*.tfvars
